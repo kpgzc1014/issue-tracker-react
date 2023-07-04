@@ -1,0 +1,193 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "issue": "air bag not work",
+      "title": "user story",
+      "level": "waitting",
+      "projectName": "Toyota",
+      "day": "2022-07-06",
+      "time": "14:18:49"
+    },
+    {
+      "id": 2,
+      "issue": "Need to check the balance",
+      "title": "tech task",
+      "level": "completed",
+      "projectName": "Honda",
+      "day": "2022-08-18",
+      "time": "14:58:07"
+    },
+    {
+      "id": 3,
+      "issue": "Changing parts",
+      "title": "tech task",
+      "level": "wait for test",
+      "projectName": "Tesla",
+      "day": "2022-07-21",
+      "time": "09:32:30"
+    },
+    {
+      "id": 4,
+      "title": "bug",
+      "issue": "Light not work",
+      "level": "testing",
+      "projectName": "Toyota",
+      "day": "2000-00-00",
+      "time": "00:00:00"
+    },
+    {
+      "id": 5,
+      "issue": "Break not good",
+      "title": "user story",
+      "level": "completed",
+      "projectName": "Honda",
+      "day": "2022-07-11",
+      "time": "17:23:44"
+    },
+    {
+      "id": 6,
+      "issue": "Air bag not good",
+      "title": "user story",
+      "level": "testing",
+      "projectName": "Tesla",
+      "day": "2022-07-06",
+      "time": "13:01:01"
+    },
+    {
+      "id": 7,
+      "issue": "light not good",
+      "title": "user story",
+      "level": "developing",
+      "projectName": "Toyota",
+      "day": "2022-08-18",
+      "time": "12:16:20"
+    },
+    {
+      "issue": "Air bag not work",
+      "title": "bug",
+      "level": "waitting",
+      "projectName": "Honda",
+      "day": "2022-08-18",
+      "time": "12:25:26",
+      "id": 8
+    },
+    {
+      "id": 12,
+      "issue": "66666666",
+      "title": "user story",
+      "level": "wait for test",
+      "day": "2023-06-08",
+      "time": "10:53:11",
+      "projectName": "Toyota"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Toyota",
+      "startDate": "2021-12-01",
+      "targetEndDate": "2022-02-01",
+      "actualEndDate": "2022-03-01",
+      "createdOn": "2021-11-01",
+      "createdBy": "Kate",
+      "modifiedOn": "2022-01-10",
+      "modifiedBy": "Laurence"
+    },
+    {
+      "id": 2,
+      "name": "Honda",
+      "startDate": "2021-11-01",
+      "targetEndDate": "2022-03-01",
+      "actualEndDate": "2022-06-01",
+      "createdOn": "2021-09-01",
+      "createdBy": "Jim",
+      "modifiedOn": "2022-03-09",
+      "modifiedBy": "Tim"
+    },
+    {
+      "name": "Tesla",
+      "startDate": "2022-04-06",
+      "targetEndDate": "2022-06-08",
+      "actualEndDate": "2022-07-06",
+      "createdOn": "2022-01-01",
+      "createdBy": "John",
+      "modifiedOn": "2022-08-10",
+      "modifiedBy": "John",
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "John Wong",
+      "email": "john@gmail.com",
+      "role": "Supervisor",
+      "username": "John",
+      "assignedProject": "Honda",
+      "createdOn": "2010-10-01",
+      "createdBy": "Kate",
+      "modifiedOn": "2022-01-10",
+      "modifiedBy": "Laurence"
+    },
+    {
+      "id": 2,
+      "name": "Daniel Zhang",
+      "email": "daniel@gmail.com",
+      "role": "Manager",
+      "username": "Daniel",
+      "assignedProject": "BMW",
+      "createdOn": "2015-06-01",
+      "createdBy": "Jim",
+      "modifiedOn": "2022-01-10",
+      "modifiedBy": "Tim"
+    },
+    {
+      "name": "Tom Thompson",
+      "email": "tom@gmail.com",
+      "role": "technician",
+      "username": "Tom",
+      "assignedProject": "Benz",
+      "createdOn": "2022-03-05",
+      "createdBy": "John",
+      "modifiedOn": "2022-07-05",
+      "modifiedBy": "John",
+      "id": 3
+    },
+    {
+      "name": "Lucy Zhang",
+      "email": "lucy@gmail.com",
+      "role": "Accoutant",
+      "username": "Lucy",
+      "assignedProject": "Tesla",
+      "createdOn": "2022-04-07",
+      "createdBy": "John",
+      "modifiedOn": "2022-07-07",
+      "modifiedBy": "John",
+      "id": 4
+    }
+  ],
+  "adminUsers": [
+    {
+      "id": 1,
+      "username": "John",
+      "email": "admin@gmail.com",
+      "password": "12345",
+      "role": "Manager"
+    },
+    {
+      "id": 2,
+      "username": "Jack",
+      "email": "jack@gmail.com",
+      "password": "12345",
+      "role": "Technician"
+    },
+    {
+      "id": 3,
+      "username": "Tom",
+      "email": "tom@gmail.com",
+      "password": "12345",
+      "role": "Manager"
+    }
+  ]
+}
